@@ -2,4 +2,43 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.main{
+    width: auto;
+    height: 100vh;
+    background-image: url('image/tree.jpg');
+    background-size: 100% 100%;
+}
+
+header{
+    display: flex;
+    width: auto;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    /* margin: 0 50px; */
+}
+
+.text{
+    color: rgb(254, 106, 52);
+
+}
+
+ul{
+    display: flex;
+    list-style: none;
+
+}
+li{
+    
+    margin: 0 50px 0 0;
+    transition: .2s;
+    cursor: pointer;
+}
+
+li:hover{
+    color: rgb(243, 135, 95);
 }
